@@ -1,0 +1,106 @@
+body{
+
+  background-color: #1c1c1c;
+}
+
+
+
+.booking-section {
+    padding: 4rem 2rem;
+    background-color: #f9f5f2;
+    text-align: center;
+  }
+  
+  .booking-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .booking-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    color: #722F37;
+    margin-bottom: 0.5rem;
+  }
+  
+  .booking-section p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .booking-form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .booking-form button {
+    background-color: #722F37;
+    color: white;
+    border: none;
+    padding: 0.9rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form button:hover {
+    background-color: #5c232c;
+  }
+  
+  nav {
+    font-family: Lor;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+top: 0px;
+width: 100%;
+padding: 2rem 0;
+transition: background-color 0.3s ease;
+background-color: transparent;
+z-index: 1000; 
+}
+nav h1 {
+font-family: 'Cinzel', serif;
+font-size: 1.8rem;
+color:#e7c5a2 ;
+text-transform: uppercase;
+letter-spacing: 1px;
+position: fixed;
+left:45px ;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid transparent; 
+transition: border-bottom 0.3s ease; 
+position: relative;
+right: -550px;
+  }
+
+
+  nav a:hover {
+border-bottom: 4px solid #722F37; 
+
+}
+
+nav.scrolled {
+    background-color:#1c1c1c; 
+    color: white; 
+    box-shadow: 0 2px 5px #e7c5a2;
+ 
+  }

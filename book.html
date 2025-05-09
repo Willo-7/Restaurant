@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notte Dorata</title>
+  <link rel="stylesheet" href="book.css">
+
+<body>
+  <div class="container">
+ 
+    <nav class="navbar" id="navbar">
+      <h1>Notte Dorata</h1>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+    
+    
+
+
+<section id="booking" style="background-color: #2c2c2c; padding: 4rem 1rem; color: white;">
+    <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+      <h2 style="font-family: 'Playfair Display', serif; font-size: 2.8rem; margin-bottom: 0.5rem; color: #e7c5a2;">
+        Reserve Your Experience
+      </h2>
+      <p style="font-size: 1.1rem; color: #ddd; margin-bottom: 2rem;">
+        Dine in style at Notte Dorata. Let us set the table for your perfect night.
+      </p>
+  
+      <form onsubmit="handleBooking(event)" style="display: grid; gap: 1rem;">
+        <input type="text" placeholder="Full Name" required style="padding: 0.8rem; border-radius: 8px; border: none; font-size: 1rem;" />
+        <input type="email" placeholder="Email Address" required style="padding: 0.8rem; border-radius: 8px; border: none; font-size: 1rem;" />
+        <input type="tel" placeholder="Phone Number" required style="padding: 0.8rem; border-radius: 8px; border: none; font-size: 1rem;" />
+        <input type="date" required style="padding: 0.8rem; border-radius: 8px; border: none; font-size: 1rem;" />
+        <input type="time" required style="padding: 0.8rem; border-radius: 8px; border: none; font-size: 1rem;" />
+        <select required style="padding: 0.8rem; border-radius: 8px; border: none; font-size: 1rem;">
+          <option value="">Number of Guests</option>
+          <option value="1">1 Guest</option>
+          <option value="2">2 Guests</option>
+          <option value="3">3 Guests</option>
+          <option value="4">4 Guests</option>
+          <option value="5+">5+ Guests</option>
+        </select>
+        <button type="submit" style="padding: 0.9rem; font-size: 1.1rem; background-color: #e7c5a2; color: #2c2c2c; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; transition: background-color 0.3s ease;">
+          Book Now
+        </button>
+      </form>
+      <script>
+        function handleBooking(event) {
+          event.preventDefault();
+          alert("Grazie! Your reservation request has been sent.");
+        }
+      </script>
+      
+
+    </div>
+  </section>
+</body>

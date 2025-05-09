@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velluto Rosso</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="container">
+ 
+        <nav class="navbar" id="navbar">
+          <h1>Notte Dorata</h1>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="book.html">Book</a>
+        </nav>
+      </div>
+
+    
+    <div class="about-container">
+        <div class="about-intro">
+            <div class="intro-text">
+                <h2>Our Story</h2>
+                <p>Notte Dorata began with a dream to blend passion for fine dining with the warm embrace of Italian tradition.
+                    Nestled in the heart of the Bronx, this restaurant has become a haven for food lovers seeking authentic flavors paired with a contemporary touch. 
+                    Its name, meaning "Golden Night" in Italian, evokes the lush and inviting atmosphere created by its elegant decor and impeccable hospitality.
+                     Over the years, Notte Dorata has grown from a humble neighborhood spot into a celebrated destination, drawing patrons with its handmade pastas,
+                      wood-fired pizzas, and carefully curated wine selection. It's a story of dedication, community, and love for crafting unforgettable culinary experiences.
+                       Let me know if you'd like me to refine this further!</p>
+            </div>
+            <div class="intro-image">
+                <img src="dinner-939434_1280.jpg" alt="Restaurant Interior">
+            </div>
+        </div>
+
+        <div class="about-values">
+            <h3>Our Values</h3>
+            <div class="value-card">
+                <h4>Authenticity</h4>
+                <p>We believe in staying true to the traditional Italian recipes passed down through generations. Every dish is made with love and respect for Italian culinary heritage.</p>
+            </div>
+            <div class="value-card">
+                <h4>Quality Ingredients</h4>
+                <p>Only the finest, freshest ingredients make it to our kitchen. From locally sourced vegetables to the best Italian cheeses and meats, we ensure every meal is full of flavor.</p>
+            </div>
+            <div class="value-card">
+                <h4>Hospitality</h4>
+                <p>Our team is dedicated to providing you with exceptional service. We treat each guest like family, ensuring your dining experience is always warm, welcoming, and memorable.</p>
+            </div>
+        </div>
+
+        <div class="about-team">
+            <h3>Meet Our Team</h3>
+            <div class="team-member">
+                <img src="ai-generated-8684830_1280.png" alt="Chef">
+                <p><strong>Giuseppe Romano</strong><br>Head Chef</p>
+            </div>
+            <div class="team-member">
+                <img src="ai-generated-8983262_1280.jpg" alt="Manager">
+                <p><strong>Maria Rossi</strong><br>Restaurant Manager</p>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        const navbar = document.getElementById("navbar");
+      
+      
+      window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) { // Change background after 50px of scrolling
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+      });
+      </script>
+</body>
+</html>

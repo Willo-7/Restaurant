@@ -1,0 +1,150 @@
+#menu {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 4rem 2rem;
+    font-family: 'Lora', serif;
+    position: relative;
+    overflow: hidden; /* Add this line */
+  }
+  @font-face {
+    font-family:Libre ;
+    src: url(Libre_Baskerville\ \(1\)/);
+  }
+  
+  @font-face {
+    font-family:Cin ;
+    src: url(Cinzel/Cinzel-VariableFont_wght.ttf);
+  }
+@font-face {
+font-family:Lor ;
+src: url(Lora/Lora-VariableFont_wght.ttf);
+}
+
+  #menu h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: Cin;
+    color: #e7c5a2;
+    margin-bottom: 3rem;
+  }
+  
+  .menu-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .menu-box {
+    border: 1px solid #e7c5a2;
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .menu-box h3 {
+    color: #e7c5a2;
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+    margin-bottom: 1rem;
+  }
+  
+  .menu-box p {
+    margin-bottom: 0.75rem;
+    position: relative;
+  }
+  
+  .menu-box p span {
+    float: right;
+    color: #e7c5a2;
+  }
+  
+  .menu-box.wide {
+    grid-column: span 2;
+  }
+  
+  .pepper-image {
+    position: absolute;
+    top: -200px;
+    left: -300px;
+    z-index: 0;
+    transform: rotate(45deg)
+  }
+  
+  .pepper-image img {
+    width: 500px;
+    filter: drop-shadow(0 0 2px white) drop-shadow(0 0 2px white);
+    opacity: 0.08;
+  }
+
+    .Fork {
+        position: absolute;
+        top: 300px;
+        left: 600px;
+        z-index: 0;
+        transform: rotate(45deg)
+      }
+      
+      .Fork img {
+        width: 400px;
+        filter: drop-shadow(0 0 2px rgb(100, 100, 100)) drop-shadow(0 0 2px white);
+        opacity: 0.08;
+    
+      }
+    
+
+/* Navbar */
+#navbar {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+    font-family:Libre;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Logo */
+  .logo {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8rem;
+    color: #e7c5a2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Nav Links */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    font-family:'lora';
+    color: white;
+    font-size: 1rem;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+    border-bottom: 2px solid transparent;
+    left: -100px;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #e7c5a2;
+    color: #e7c5a2;
+  }
+  
+  
+  

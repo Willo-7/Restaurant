@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notte Dorata</title>
+  <link rel="stylesheet" href="first.css">
+
+   
+</head>
+
+<body>
+
+  <header>
+    <h1>Notte Dorata</h1>
+    <h2>The Art of Italian Dining, Draped in the night</h2>
+  </header>
+
+  <div id="background">
+    <div class="slide" style="background-image: url('janos-venczak-h7roZ9aDNKc-unsplash.jpg');">
+      <div class="slide-text"><h1></h1>                             </div>
+    </div>
+    <div class="slide" style="background-image: url('darko-trajkovic-KK86l4Z1toU-unsplash.jpg');">
+      <div class="slide-text"></div>
+    </div>
+    <div class="slide" style="background-image: url('tim-nuerminger-TtXEPUoXdcE-unsplash.jpg');">
+      <div class="slide-text"></div>
+    </div>
+  </div>
+  
+
+
+<div class="container">
+ 
+  <nav class="navbar" id="navbar">
+    <h1>Notte Dorata</h1>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</div>
+  
+  
+<div class="button-wrapper">
+  <a href="menu.html" class="button">MENU</a>
+  <a href="book.html" class="button2">BOOK</a>
+</div>
+
+
+
+  <section id="Hours" class="Hours">
+    <div class="open" style="padding: 2rem; color: white; font-family: Lor;">
+      <h2 style="font-family: Cin; font-size: 2rem; color: #e7c5a2;margin-left: 50px;">Dining Hours</h2>
+      <p style="font-size: 1rem; font-family:libre ; line-height:1; margin-top: 5px;">
+        Join us for a refined lunch experience from <strong>12:00 PM – 2:30 PM</strong>, where midday indulgence meets Italian tradition.
+        <br><br>
+        As evening falls, we invite you to dine with us from <strong>6:00 PM – 10:30 PM</strong>, surrounded by candlelight and velvet ambiance.
+        <br><br>
+        Reservations are recommended to ensure your table awaits. <br>Click <a href="book.html" style="color: #e7c5a2; text-decoration: underline;">here</a> or use the Book button above to reserve your experience.
+      </p>
+    </div>
+  </section>
+  
+    </section>
+    
+  </section>
+
+  <section id="about" style="background-color: #1c1c1c; color: white; padding: 3rem 0;">
+    <div style="display: flex; align-items: center; justify-content: center; max-width: 1200px; margin: auto; padding: 2rem;">
+      
+      <!-- Left: Overlapping images -->
+      <div class="image-container" style="position: relative; width: 50%; height: 400px; cursor: pointer;">
+        <img src="dinner-939434_1280.jpg" alt="Front Image" class="image image-front" style="
+          position: absolute;
+          top: 0; left: -100px;
+          width: 70%; height: 70%;
+          object-fit: cover;
+          border-radius:50%;
+          transition: all 0.6s ease;
+          z-index: 2;
+          opacity: 1;
+          overflow: hidden;
+        " />
+        <img src="maia-wine-nBY_0e7EMns-unsplash.jpg" alt="Back Image" class="image image-back" style="
+          position: absolute;
+          top: 150px; left: 100px;;
+          width: 70%; height: 70%;
+          object-fit: cover;
+          border-radius:50%;
+          transition: all 0.6s ease;
+          z-index: 1;
+          opacity:1;
+          overflow: hidden;
+        " />
+      </div>
+  
+      <!-- Right: Text content -->
+      <div style="width: 50%; padding-left: 2rem;">
+        <h2 style="font-family: 'Cin', serif; font-size: 2.5rem; margin-bottom: 1rem;color:#e7c5a2;">Our Story</h2>
+        <p style="font-size: 1rem; line-height: 1.6;font-family:Libre;">
+          Notte Dorata began with a dream to blend passion for fine dining with the warm embrace of Italian tradition.
+           Nestled in the heart of the Bronx, this restaurant has become a haven for food lovers seeking authentic flavors paired with a contemporary touch. 
+           Its name, meaning "Golden Night" in Italian, evokes the lush and inviting atmosphere created by its elegant decor and impeccable hospitality.
+            Over the years, Notte Dorata has grown from a humble neighborhood spot into a celebrated destination, drawing patrons with its handmade pastas,
+             wood-fired pizzas, and carefully curated wine selection. It's a story of dedication, community, and love for crafting unforgettable culinary experiences.
+              Let me know if you'd like me to refine this further!
+        </p>
+      </div>
+    </div>
+  </section>
+  
+<section id="LateNightSpecial" class="late-night-special" style="background-color:#2c2c2c ; padding: 2%;; color: white; font-family: Lor; text-align: center;">
+  <h2 style="font-family: Cin; font-size: 2rem; color: #e7c5a2; margin-bottom: 1rem;">Late Night Special</h2>
+  <p style="font-size: 1rem; line-height: 1.6; max-width: 700px; margin: 0 auto;font-family: Libre;">
+    As the night settles in, indulge in our exclusive <strong>Wine Tasting Experience for the price of one</strong>.
+    Let your evening linger longer with a curated selection of Italian wines, each pour paired with an <strong>artisan cheese board</strong> designed to complement every note.
+    <br><br>
+    Available <strong>Fridays & Saturdays after 9:00 PM</strong>. A perfect close to a golden night.
+  </p>
+</section>
+
+
+
+<section id="wine-menu" style="background-color:#1c1c1c; padding: 4rem 2rem; color: white; font-family: Lor;">
+  <h2 style="font-family: Cin; text-align: center; font-size: 2.5rem; color: #e7c5a2; margin-bottom: 3rem;">Our Wine Collection</h2>
+
+  <div id="wine-carousel" style="display: flex; overflow: hidden; max-width: 900px; margin: 0 auto; position: relative;">
+    <button id="prevBtn" style="position: absolute; top: 50%; left: -40px; transform: translateY(-50%); background: none; border: none; color: #e7c5a2; font-size: 2rem; cursor: pointer;">‹</button>
+    <div class="wine-page" style="display: flex; gap: 2rem; transition: transform 0.5s ease;">
+      <!-- Wine Card 1 -->
+      <div style="background-color: #2c2c2c; border-radius: 12px; overflow: hidden; width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        <img src="beaulieu_vyd_napa_cab_19_750.png" alt="Beaulieu Vineyard Cabernet Sauvignon Napa" style="width: 100%; height: 200px; object-fit: scale-down;">
+        <div style="padding: 1rem;">
+          <h3 style="font-family: Cin; font-size: 1.3rem; margin-bottom: 0.5rem; color: #e7c5a2;">Beaulieu Vineyard Cabernet Sauvignon Napa</h3>
+          <p style="font-size: 0.95rem; font-family: Libre; color: #ccc;">A refined Napa Cabernet with lush black-fruit flavors, subtle vanilla-spice from French oak, and smooth, lingering tannins.</p>
+          <p style="font-size: 1rem; margin-top: 0.5rem;"><strong>$48</strong></p>
+        </div>
+      </div>
+      <!-- Wine Card 2 -->
+      <div style="background-color: #2c2c2c; border-radius: 12px; overflow: hidden; width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        <img src="brewer_clifton_srh_pnoir_21_750.png" alt="Brewer-Clifton Sta. Rita Hills Pinot Noir" style="width: 100%; height: 200px; object-fit: scale-down;">
+        <div style="padding: 1rem;">
+          <h3 style="font-family: Cin; font-size: 1.3rem; margin-bottom: 0.5rem; color: #e7c5a2;">Brewer-Clifton Sta. Rita Hills Pinot Noir</h3>
+          <p style="font-size: 0.95rem;font-family: Libre; color: #ccc;">A medium-bodied Pinot Noir from Sta. Rita Hills, offering bright pomegranate and raspberry aromas, ripe cherry and fig flavors, and smooth, balanced tannins.</p>
+          <p style="font-size: 1rem; margin-top: 0.5rem;"><strong>$72</strong></p>
+        </div>
+      </div>
+      <!-- Wine Card 3 -->
+      <div style="background-color: #2c2c2c; border-radius: 12px; overflow: hidden; width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        <img src="chqccgsyd7vakzvpost7.png" alt="Lail Vineyards 'Blueprint' Cabernet Sauvignon" style="width: 100%; height: 200px; object-fit: scale-down;">
+        <div style="padding: 1rem;">
+          <h3 style="font-family: Cin; font-size: 1.3rem; margin-bottom: 0.5rem; color: #e7c5a2;">Lail Vineyards 'Blueprint' Cabernet Sauvignon</h3>
+          <p style="font-size: 0.95rem;font-family: Libre; color: #ccc;">A medium-full Napa Cabernet with vibrant boysenberry and black cherry notes, cocoa and sage accents, and refined, lingering tannins.</p>
+          <p style="font-size: 1rem; margin-top: 0.5rem;"><strong>$100</strong></p>
+        </div>
+      </div>
+      <!-- Wine Card 4 -->
+      <div style="background-color: #1c1c1c; border-radius: 12px; overflow: hidden; width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        <img src="" alt="Chianti Classico" style="width: 100%; height: 200px; object-fit: cover;">
+        <div style="padding: 1rem;">
+          <h3 style="font-family: Cin; font-size: 1.3rem; margin-bottom: 0.5rem; color: #e7c5a2;">Chianti Classico Riserva</h3>
+          <p style="font-size: 0.95rem; color: #ccc;">Deep, ruby-red with aromas of black cherry, leather, and a hint of spice.</p>
+          <p style="font-size: 1rem; margin-top: 0.5rem;"><strong>$48</strong></p>
+        </div>
+      </div>
+      <!-- Wine Card 5 -->
+      <div style="background-color: #1c1c1c; border-radius: 12px; overflow: hidden; width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        <img src="" alt="Barolo" style="width: 100%; height: 200px; object-fit: cover;">
+        <div style="padding: 1rem;">
+          <h3 style="font-family: Cin; font-size: 1.3rem; margin-bottom: 0.5rem; color: #e7c5a2;">Barolo DOCG</h3>
+          <p style="font-size: 0.95rem; color: #ccc;">Rich and complex, with notes of dried rose, cherry, and truffle. Aged to perfection.</p>
+          <p style="font-size: 1rem; margin-top: 0.5rem;"><strong>$72</strong></p>
+        </div>
+      </div>
+      <!-- Wine Card 6 -->
+      <div style="background-color: #1c1c1c; border-radius: 12px; overflow: hidden; width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+        <img src="" alt="Prosecco" style="width: 100%; height: 200px; object-fit: cover;">
+        <div style="padding: 1rem;">
+          <h3 style="font-family: Cin; font-size: 1.3rem; margin-bottom: 0.5rem; color: #e7c5a2;">Prosecco Superiore</h3>
+          <p style="font-size: 0.95rem; color: #ccc;">Crisp, refreshing, and delicately floral. Perfect for celebrations or aperitivo hour.</p>
+          <p style="font-size: 1rem; margin-top: 0.5rem;"><strong>$34</strong></p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div style="text-align: center; margin-top: 2rem;">
+      <button onclick="prevWinePage()" style="margin-right: 1rem; padding: 0.8rem 1.2rem;">←</button>
+      <button onclick="nextWinePage()" style="padding: 0.8rem 1.2rem;">→</button>
+    </div>
+  </section>
+  
+
+  
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 La Tavola Italiana. All rights reserved.</p>
+  </footer>
+
+</body>
+<script>
+  const navbar = document.getElementById("navbar");
+
+
+window.addEventListener("scroll", () => {
+if (window.scrollY > 250) { // Change background after 50px of scrolling
+  navbar.classList.add("scrolled");
+} else {
+  navbar.classList.remove("scrolled");
+}
+});
+</script>
+
+
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.style.opacity = i === index ? '1' : '0';
+    });
+  }
+
+  showSlide(currentIndex);
+
+  let startX = 0;
+
+  document.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+  });
+
+  document.addEventListener('touchend', e => {
+    const endX = e.changedTouches[0].clientX;
+    const diffX = startX - endX;
+
+    if (Math.abs(diffX) > 50) {
+      if (diffX > 0) {
+        // swipe left
+        currentIndex = (currentIndex + 1) % slides.length;
+      } else {
+        // swipe right
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      }
+      showSlide(currentIndex);
+    }
+  });
+</script>
+
+
+<!----toggle for tablet mode-->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById('menu-toggle');
+    const navbar = document.getElementById('navbar');
+
+    toggle.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+  });
+</script>
+
+
+
+
+
+</html>
+
