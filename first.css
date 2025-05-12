@@ -482,6 +482,78 @@ footer {
 }
 
 
+/*menu*/
+.popular-section {
+  background-color: #1c1c1c;
+  padding: 4rem 2rem;
+  font-family: Lor, serif;
+  color: white;
+  
+}
+
+.popular-title {
+  text-align: center;
+  font-family: Cin, serif;
+  color: #e7c5a2;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.popular-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.popular-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.popular-text h3 {
+  font-family: Cin, serif;
+  font-size: 1.5rem;
+  color: #e7c5a2;
+  margin-bottom: 0.5rem;
+}
+
+.popular-text p {
+  font-family: Libre, serif;
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.popular-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e7c5a2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --- Responsive Buttons for Mobile & Tablet --- */
 @media (max-width: 768px) {
   .button,
