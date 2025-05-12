@@ -112,12 +112,13 @@ src: url(Lora/Lora-VariableFont_wght.ttf);
   }
   
   /* Logo */
-  .logo {
+  img{
     font-family: 'Cinzel', serif;
     font-size: 1.8rem;
     color: #e7c5a2;
     text-transform: uppercase;
     letter-spacing: 2px;
+    width: 150px;
   }
   
   /* Nav Links */

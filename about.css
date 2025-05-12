@@ -35,14 +35,15 @@ nav {
     z-index: 1000; 
 }
 
-nav h1 {
-    font-family: 'Cinzel', serif;
+nav img {
+    font-family: 'Cin';
     font-size: 1.8rem;
     color: #e7c5a2;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: fixed;
     left: 45px;
+    width: 150px;
 }
 
 nav a {
@@ -84,17 +85,18 @@ nav.scrolled {
 }
 
 .intro-text h2 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cin';
     font-size: 2rem;
     color: #e7c5a2;
     margin-bottom: 20px;
 }
 
 .intro-text p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.6;
     color: #f4f4f4;
     font-family: Libre;
+    font-weight: 200px;
 }
 
 .intro-image img {
@@ -140,7 +142,7 @@ nav.scrolled {
 }
 
 .value-card h4 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cin';
     color: #8b7560;
     font-size: 1.5rem;
     margin-bottom: 15px;
@@ -151,6 +153,7 @@ nav.scrolled {
     line-height: 1.5;
     font-family: Libre;
     text-align: center;
+    font-weight: 200px;
 }
 
 /* Team Section */
@@ -160,6 +163,7 @@ nav.scrolled {
     margin-top: 40px;
     color: #f4f4f4;
     font-family: Libre;
+    font-weight: 200px;
 }
 
 .team-member {
